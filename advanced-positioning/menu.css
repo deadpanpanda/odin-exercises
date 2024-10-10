@@ -44,7 +44,7 @@ a:hover {
   margin-right: 0;
 }
 
-.features-menu {
+.dropdown:hover .features-menu {
   display: flex;
   flex-direction: column;
   background: #B2D6FF;
@@ -78,3 +78,7 @@ a:hover {
   position: relative;
   cursor: pointer;
 }
+
+ .features-menu {
+  display: none;
+ }
