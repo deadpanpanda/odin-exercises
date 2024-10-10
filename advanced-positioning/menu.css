@@ -81,4 +81,8 @@ a:hover {
 
  .features-menu {
   display: none;
- }
+}
+
+.dropdown {
+  border: 1px solid #FFF;
+}
