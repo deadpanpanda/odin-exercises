@@ -75,6 +75,8 @@ a {
 
 .section-one img {
   max-width: 350px;
+  border-radius: 5px;
+  border: 2px solid #E5E7EB;
 }
 
 .section-one .heading {
@@ -128,7 +130,58 @@ a {
   background-color: #E5E7EB;
 }
 
+.section-three {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px 30px;
+}
+
+.quote {
+  font-size: 2em;
+  color: #556274;
+  font-style: italic;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
 /* Section Four */
+
+.section-four {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px 100px;
+}
+
+.banner-container .heading {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.banner .button {
+  border: 1px solid #F9FAF8;
+}
 
 /* Footer */
 
