@@ -115,7 +115,7 @@ a {
   margin: 30px 10px;
 }
 
-.section-one .button {
+.section-one .sign-up {
   margin: 20px auto 0 auto;
 }
 
@@ -254,6 +254,7 @@ a {
 
   .section-one .heading {
     font-size: 1.4em;
+    text-align: left;
   }
 
   .section-one .button {
