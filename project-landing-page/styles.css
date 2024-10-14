@@ -24,6 +24,20 @@ a {
   color: #E5E7EB;
 }
 
+.header-logo:hover {
+  background: linear-gradient(#F9FAF8 0 0) bottom / 100% 1px no-repeat;
+}
+
+.nav-links a:hover {
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+
+.button:hover {
+  background-color: #FFF;
+  color: #3882F6;
+}
+
 .text {
   color: #E5E7EB;
 }
@@ -93,6 +107,7 @@ a {
   color: #F9FAF8;
   font-weight: 900;
   font-size: 1.8em;
+  text-align: center;
 }
 
 .section-one .right,
