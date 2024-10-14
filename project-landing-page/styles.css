@@ -268,6 +268,8 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
+    max-width: 675px;
+    margin: 0 auto;
   }
 
   .image-container .image {
@@ -303,6 +305,10 @@ a {
     margin: auto;
   }
   
+  .image-container {
+    max-width: 1000px;
+  }
+
   .section-three .quote,
   .section-three .quote-author {
     margin: 0 40px;
