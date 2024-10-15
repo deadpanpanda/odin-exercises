@@ -3,6 +3,7 @@
 /* Colours */
 
 .color {
+color: #1d2c33;
 color: #1F2937;
 color: #F9FAF8;
 color: #E5E7EB;
@@ -30,7 +31,7 @@ a {
 
 .nav-links a:hover {
   background-color: #E5E7EB;
-  color: #1F2937;
+  color: #1d2c33;
 }
 
 .button:hover {
@@ -58,7 +59,7 @@ a {
 
 .footer-background,
 .header-background {
-  background-color: #1F2937;
+  background-color: #1d2c33;
 }
 
 .header {
@@ -120,7 +121,8 @@ a {
 }
 
 .section-one img {
-  max-width: 250px;
+  width: 100%;
+  max-width: 350px;
   border-radius: 5px;
   border: 2px solid #E5E7EB;
 
@@ -147,12 +149,13 @@ a {
 }
 
 .image-container img {
-  border: 1px solid #1F2937;
+  border: 1px solid #1d2c33;
   border-radius: 5px;
 }
 
 .image-container img,
 .image-container .image {
+  width: 100%;
   max-width: 200px;
 }
 
@@ -261,6 +264,10 @@ a {
     margin: 10px 0;
   }
 
+  .section-one img {
+    max-width: 750px;
+  }
+
   /* Section Two */
 
   .image-container {
@@ -295,6 +302,18 @@ a {
   }
 }
 
+@media screen and (min-width: 768px) {
+
+  /* Section Two */
+
+  .image-container {
+    max-width: 1000px;
+    flex-wrap: nowrap;
+  }
+  
+  
+}
+
 @media screen and (min-width: 1000px) {
   .header,
   .section-one,
@@ -304,7 +323,15 @@ a {
     max-width: 1000px;
     margin: auto;
   }
-  
+
+  .section-one .left {
+    min-width: 470px;
+  }
+    
+  .section-one img {
+    max-width: 1500px;
+  }
+
   .image-container {
     max-width: 1000px;
   }
